@@ -1,0 +1,7 @@
+# Local only: host ports 11434 and 8000 are used by a native Ollama and uvicorn.
+# Delete this file to go back to the default ports.
+services:
+  ollama:
+    ports: !override ["11435:11434"]
+  backend:
+    ports: !override ["8001:8000"]

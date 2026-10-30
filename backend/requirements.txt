@@ -1,0 +1,18 @@
+# --- API -------------------------------------------------------------------
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic-settings>=2.4
+python-multipart>=0.0.9
+prometheus-client>=0.20
+pyyaml>=6.0
+pypdf>=4.3
+# --- LLM orchestration (all MIT / Apache-2.0) -------------------------------
+langchain-core>=0.3
+langgraph>=0.2
+langchain-ollama>=0.2
+langchain-openai>=0.2          # only for OpenAI-compatible self-hosted servers (vLLM, LM Studio)
+semantic-kernel[ollama]>=1.20
+# --- Vector database --------------------------------------------------------
+qdrant-client>=1.12
+# --- Optional observability (self-hosted Langfuse) --------------------------
+# langfuse>=3.0

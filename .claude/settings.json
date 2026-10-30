@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(make test)",
+      "Bash(make eval)",
+      "Bash(make lint)",
+      "Bash(python -m pytest:*)",
+      "Bash(python -m scripts.run_eval:*)",
+      "Bash(ruff:*)",
+      "Bash(npm run build)",
+      "Bash(npm run typecheck)"
+    ]
+  }
+}
