@@ -1,5 +1,7 @@
 # Liora Assistant
 
+Developed by Manoj Negi
+
 An **agentic retrieval-augmented generation (RAG) assistant** for Srijana of Liora By Srijana, a brand of hand-poured scented candles. It helps people find a piece, check prices, add up an order, look after their candles and order on WhatsApp. Answers are cited to the 2026 product catalogue, guardrails run on the input and the output, and each answer shows the path it took through the agent.
 
 It uses the same agentic workflow and stack as the GT-M Store Assistant. **The whole stack is free and open source, with no API keys or paid cloud services.**
